@@ -1,5 +1,3 @@
-
-
 data_source retail:
   type: bigquery
   connection:
@@ -8,10 +6,5 @@ data_source retail:
     - https://www.googleapis.com/auth/bigquery
     - https://www.googleapis.com/auth/cloud-platform
     - https://www.googleapis.com/auth/drive
-    project_id: 'articulate-case-398313'
+    project_id: 'chaomao-stock-dev-68'
     dataset: retail
-soda_cloud:
-  host: cloud.soda.io
-  api_key_id: 3ca3435c-76ef-418f-8941-a27170d4d944
-  api_key_secret: HImqL-nhSHMK_xAXdrWtk-9VJWVFnZj8yomFTo04YKF5Q70VBbk2nA
-

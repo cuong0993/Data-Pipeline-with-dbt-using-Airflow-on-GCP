@@ -1,7 +1,7 @@
 checks for raw_online_retail:
   - schema:
       fail:
-        when required column missing: [Invoice, StockCode, Description, Quantity, InvoiceDate, Price, Customer ID, Country]
+        when required column missing: [Invoice, StockCode, Description, Quantity, InvoiceDate, Price, Customer_id, Country]
         when wrong column type:
           Invoice: string
           StockCode: string
@@ -9,5 +9,5 @@ checks for raw_online_retail:
           Quantity: integer
           InvoiceDate: string
           Price: float64
-          Customer ID: float64
+          Customer_id: int64
           Country: string

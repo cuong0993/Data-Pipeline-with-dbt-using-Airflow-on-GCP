@@ -4,7 +4,7 @@ version: 2
 
 sources:
   - name: retail
-    database: articulate-case-398313 # Put the project id!
+    database: chaomao-stock-dev-68
 
     tables:
       - name: raw_online_retail

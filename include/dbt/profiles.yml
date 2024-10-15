@@ -1,14 +1,13 @@
-# profiles.yml
-
 retail:
- target: dev
- outputs:
-  dev:
-    type: bigquery
-    method: service-account
-    keyfile: /usr/local/airflow/include/gcp/service_account.json
-    project: articulate-case-398313
-    dataset: retail
-    threads: 1
-    timeout_seconds: 600
-    location: US
+  outputs:
+    dev:
+      dataset: retail
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: chaomao-stock-dev-68
+      threads: 1
+      type: bigquery
+  target: dev
